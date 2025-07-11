@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway","Inter", sans-serif;
 }
 header {
   background-color: rgba(78, 71, 255, 0.01);
@@ -40,12 +41,86 @@ button.sign {
   text-align: center;
   margin-top: 50px;
 }
-.hero h1{
-font-size: 65px;
-line-height: 76px;
-color: rgb(37, 36, 50);
-font-weight: 700;
+.hero h1 {
+  font-size: 65px;
+  line-height: 76px;
+  color: rgb(37, 36, 50);
+  font-weight: 700;
 }
-.hero button{
+.hero button {
   margin: 50px 0 158px 0;
 }
+/* main */
+main {
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+}
+/* action */
+.action {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/* action content */
+.acton-content {
+  width: 50%;
+}
+.acton-content h2 {
+  color: rgb(37, 36, 50);
+  font-weight: 700;
+  font-size: 42;
+  margin-bottom: 23px;
+}
+.acton-content p {
+  width: 85%;
+  color: rgba(37, 36, 50, 0.5);
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+/* action-img */
+.action-img img {
+  width: 100%;
+  border-radius: 48px;
+}
+
+/* user */
+.user {
+  margin: 70px 0;
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 80px;
+  border-radius: 24px;
+}
+.ju78t {
+  color: rgb(37, 36, 50);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.ju78N {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.Num{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter ,sans-serif;
+}
+  .Num p._cl9ik {
+  color: rgb(78, 71, 255);
+  font-size: 80px;
+  font-weight: 700;
+}
+.Num span{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+}
+/* ratings */
