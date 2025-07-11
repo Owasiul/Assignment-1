@@ -38,6 +38,16 @@ button.sign {
   font-size: 16px;
   border: none;
   background: rgb(78, 71, 255);
+  
+}
+button.sign:hover {
+  background: #24c7ae;
+  background: linear-gradient(
+    520deg,
+    rgba(36, 199, 174, 1) 35%,
+    rgba(108, 133, 224, 1) 100%
+  );
+  transition: 0.8s ease;
 }
 /* hero */
 .hero {
@@ -114,7 +124,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .Num p._cl9ik {
   color: rgb(78, 71, 255);
@@ -237,7 +247,6 @@ main {
   font-size: 15px;
   font-weight: 600;
   color: #252432;
-  margin-bottom: 2px;
 }
 .touch-right form input {
   padding: 16px 18px;
@@ -259,4 +268,37 @@ main {
   font-family: inherit;
   margin-bottom: 0;
   resize: none;
+}
+/* footer */
+footer {
+  background-color: rgb(255, 255, 255);
+  padding: 100px 150px;
+  text-align: center;
+  font-family: "Inter";
+}
+._trL8e {
+  color: rgb(78, 71, 255);
+  font-size: 100px;
+  font-weight: 900;
+}
+._tjlw {
+  margin: 8px auto;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(137, 135, 161);
+  width: 45%;
+}
+.links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 25px;
+}
+.links ul li a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+  font-size: 16px;
 }
